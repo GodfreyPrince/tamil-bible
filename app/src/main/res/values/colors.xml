@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#7A2F21</color>
+    <color name="primary_dark">#5B2317</color>
+    <color name="accent">#E8A13D</color>
+    <color name="window_bg">#FAF6F0</color>
+    <color name="text_primary">#26221E</color>
+    <color name="text_secondary">#6D6259</color>
+    <color name="toolbar_text">#FFFFFF</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="divider">#E4DCD2</color>
+    <color name="hl_yellow">#FFF176</color>
+    <color name="hl_green">#A5D6A7</color>
+    <color name="hl_blue">#90CAF9</color>
+    <color name="hl_pink">#F48FB1</color>
+    <color name="hl_orange">#FFAB91</color>
+</resources>

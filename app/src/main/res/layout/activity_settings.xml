@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="?android:attr/colorPrimary">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="56dp"
+        android:orientation="horizontal" android:gravity="center_vertical"
+        android:paddingStart="4dp" android:paddingEnd="12dp">
+        <ImageView android:id="@+id/btn_back" android:layout_width="44dp" android:layout_height="44dp"
+            android:padding="10dp" android:src="@drawable/ic_back"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/cancel"/>
+        <TextView android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"
+            android:text="@string/settings" android:textColor="@color/toolbar_text"
+            android:textSize="18sp" android:textStyle="bold"/>
+    </LinearLayout>
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp"
+        android:layout_weight="1" android:background="?android:attr/windowBackground">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:padding="20dp">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/font_size" android:textSize="16sp" android:textStyle="bold"
+                android:textColor="?android:attr/textColorPrimary"/>
+            <SeekBar android:id="@+id/sb_font" android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:min="14" android:max="30" android:layout_marginTop="8dp"/>
+            <TextView android:id="@+id/tv_font_val" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:textSize="13sp" android:textColor="?android:attr/textColorSecondary"/>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/theme" android:textSize="16sp" android:textStyle="bold"
+                android:layout_marginTop="28dp" android:textColor="?android:attr/textColorPrimary"/>
+            <RadioGroup android:id="@+id/rg_theme" android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_marginTop="4dp" android:orientation="vertical">
+                <RadioButton android:id="@+id/rb_light" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="@string/theme_light" android:textSize="15sp"/>
+                <RadioButton android:id="@+id/rb_dark" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="@string/theme_dark" android:textSize="15sp"/>
+                <RadioButton android:id="@+id/rb_system" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="@string/theme_system" android:textSize="15sp"/>
+            </RadioGroup>
+
+            <CheckBox android:id="@+id/cb_keep_on" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/keep_screen_on" android:textSize="15sp" android:layout_marginTop="20dp"/>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/media_gallery" android:textSize="16sp" android:textStyle="bold"
+                android:layout_marginTop="24dp" android:textColor="?android:attr/textColorPrimary"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="@string/media_online" android:textSize="13sp" android:layout_marginTop="2dp"
+                android:textColor="?android:attr/textColorSecondary"/>
+            <CheckBox android:id="@+id/cb_store_media" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/media_keep_off" android:textSize="15sp" android:layout_marginTop="4dp"/>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/about_title" android:textSize="16sp" android:textStyle="bold"
+                android:layout_marginTop="32dp" android:textColor="?android:attr/textColorPrimary"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="@string/about_text" android:textSize="14sp" android:lineSpacingMultiplier="1.3"
+                android:layout_marginTop="6dp" android:textColor="?android:attr/textColorSecondary"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

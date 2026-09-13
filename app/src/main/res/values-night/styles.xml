@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppThemeSystem" parent="AppThemeDark">
+        <item name="android:statusBarColor">#263238</item>
+    </style>
+</resources>

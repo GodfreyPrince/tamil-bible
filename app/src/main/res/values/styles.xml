@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:windowBackground">@color/window_bg</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:colorControlActivated">@color/accent</item>
+    </style>
+
+    <style name="AppThemeDark" parent="android:Theme.Material.NoActionBar">
+        <item name="android:colorPrimary">#37474F</item>
+        <item name="android:colorPrimaryDark">#263238</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:windowBackground">#141311</item>
+        <item name="android:textColorPrimary">#E8E3DC</item>
+        <item name="android:textColorSecondary">#A8A099</item>
+        <item name="android:statusBarColor">#263238</item>
+        <item name="android:colorControlActivated">@color/accent</item>
+    </style>
+
+    <style name="AppThemeSystem" parent="AppTheme">
+        <item name="android:statusBarColor">@color/primary_dark</item>
+    </style>
+
+    <style name="AppTheme.Translucent" parent="AppTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorPrimaryDark">#33000000</item>
+        <item name="android:statusBarColor">#33000000</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

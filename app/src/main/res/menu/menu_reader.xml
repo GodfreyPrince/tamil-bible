@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_books" android:title="@string/menu_books_chapters" android:showAsAction="never"/>
+    <item android:id="@+id/menu_search" android:title="@string/search_hint" android:showAsAction="never"/>
+    <item android:id="@+id/menu_votd" android:title="@string/verse_of_the_day" android:showAsAction="never"/>
+    <item android:id="@+id/menu_plans" android:title="@string/reading_plans" android:showAsAction="never"/>
+    <item android:id="@+id/menu_progress" android:title="@string/reading_progress" android:showAsAction="never"/>
+    <item android:id="@+id/menu_gallery" android:title="@string/media_gallery" android:showAsAction="never"/>
+    <item android:id="@+id/menu_maps" android:title="@string/media_maps" android:showAsAction="never"/>
+    <item android:id="@+id/menu_mark" android:title="@string/mark_read" android:showAsAction="never"/>
+    <item android:id="@+id/menu_library" android:title="@string/menu_library" android:showAsAction="never"/>
+    <item android:id="@+id/menu_settings" android:title="@string/settings" android:showAsAction="never"/>
+</menu>

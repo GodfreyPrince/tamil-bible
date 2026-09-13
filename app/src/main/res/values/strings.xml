@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">தமிழ் பைபிள்</string>
+    <string name="old_testament">பழைய ஏற்பாடு</string>
+    <string name="new_testament">புதிய ஏற்பாடு</string>
+    <string name="books">புத்தகங்கள்</string>
+    <string name="search_hint">பைபிளில் தேடுங்கள்…</string>
+    <string name="verse_of_the_day">இன்றைய வசனம்</string>
+    <string name="prev_chapter">‹ முந்தையது</string>
+    <string name="next_chapter">அடுத்தது ›</string>
+    <string name="loading_bible">பைபிள் தயாராகிறது…</string>
+    <string name="my_library">என் நூலகம்</string>
+    <string name="bookmarks">புத்தகக்குறிகள்</string>
+    <string name="highlights">ஹைலைட்கள்</string>
+    <string name="notes">குறிப்புகள்</string>
+    <string name="reading_plans">வாசிப்புத் திட்டங்கள்</string>
+    <string name="settings">அமைப்புகள்</string>
+    <string name="read_chapter">முழு அத்தியாயத்தையும் படிக்க</string>
+    <string name="no_results">வசனங்கள் கிடைக்கவில்லை. வேறு சொற்களில் முயற்சிக்கவும்.</string>
+    <string name="empty_bookmarks">இன்னும் புத்தகக்குறிகள் இல்லை.\nவாசகத்தில் ஒரு வசனத்தைத் தட்டி சேமியுங்கள்.</string>
+    <string name="empty_highlights">இன்னும் ஹைலைட்கள் இல்லை.\nவாசகத்தில் ஒரு வசனத்தைத் தட்டி குறியுங்கள்.</string>
+    <string name="empty_notes">இன்னும் குறிப்புகள் இல்லை.\nவாசகத்தில் ஒரு வசனத்தைத் தட்டி எழுதுங்கள்.</string>
+    <string name="bookmark">புத்தகக்குறி</string>
+    <string name="saved">சேமிக்கப்பட்டது</string>
+    <string name="note">குறிப்பு</string>
+    <string name="edit_note">குறிப்பைத் திருத்து</string>
+    <string name="delete">நீக்கு</string>
+    <string name="copy">நகல்</string>
+    <string name="verse_copied">வசனம் நகலெடுக்கப்பட்டது</string>
+    <string name="share">பங்கிடு</string>
+    <string name="cancel">ரத்து</string>
+    <string name="done">முடிந்தது</string>
+    <string name="highlight">ஹைலைட்</string>
+    <string name="highlight_none">எதுவும் இல்லை</string>
+    <string name="highlight_clear">அழி</string>
+    <string name="actions">செயல்கள்</string>
+    <string name="removed">நீக்கப்பட்டது</string>
+    <string name="remove_item">%s நீக்கவா?</string>
+    <string name="font_size">எழுத்து அளவு</string>
+    <string name="font_hint">இழுத்த பிறகு அத்தியாயத்தை மீண்டும் திறக்கவும்</string>
+    <string name="theme">தோற்றம்</string>
+    <string name="theme_light">வெளிச்சம்</string>
+    <string name="theme_dark">இருள்</string>
+    <string name="theme_system">கருவி அமைப்பைப் பின்பற்றுக</string>
+    <string name="keep_screen_on">வாசிக்கும்போது திரை அணையாமல் இருக்கட்டும்</string>
+    <string name="about_title">பற்றி</string>
+    <string name="about_text">தமிழ் பைபிள் 1.0 — முற்றிலும் இலவசமான, இணையமின்றி வேலைசெய்யும் பைபிள் செயலி.\n\n• இரண்டு வேத உரைகள்: திருவிவிலியம் (BSI சமஷ்டி தமிழ், 2012 பதிப்பு) மற்றும் IRV எளிய தமிழ் — வாசகத்தில் ஒரே தட்டில் மாற்றலாம்\n• மொத்தம் 66 புத்தகங்கள்\n• விளம்பரம் இல்லை, கணக்கு இல்லை, கண்காணிப்பு இல்லை — செயலி இணையத்தையே பயன்படுத்தாது\n• ஹைலைட்கள், புத்தகக்குறிகள், குறிப்புகள், வாசிப்பு முன்னேற்றம் அனைத்தும் உங்கள் கைபேசியிலேயே சேமிக்கப்படும்\n\nவேத உரை உரிமங்கள்: திருவிவிலியம் — Tamil Ecumenical Bible 2012, digitized (Unlicense); Indian Revised Version (IRV) — CC BY-SA 4.0.</string>
+
+    <!-- versions -->
+    <string name="version_old_full">பழைய தமிழ் வேதாகமம் (BSI)</string>
+    <string name="version_old_short">பழைய</string>
+    <string name="version_bsi_full">திருவிவிலியம் (BSI)</string>
+    <string name="version_irv_full">IRV எளிய தமிழ்</string>
+    <string name="version_bsi_short">BSI</string>
+    <string name="version_irv_short">IRV</string>
+    <string name="version_switched">வேத உரை: %s</string>
+
+    <!-- art gallery -->
+    <string name="media_gallery">கலைக் காட்சியகம்</string>
+    <string name="media_maps">வேத வரைபடங்கள்</string>
+    <string name="media_scenes">காட்சிகள்</string>
+    <string name="media_all">அனைத்தும்</string>
+    <string name="media_count_fmt">%1$d படங்கள்</string>
+    <string name="media_online">படங்கள் இணையத்திலிருந்து ஏற்றப்படும் · சேமிக்க விருப்பம் உண்டு</string>
+    <string name="media_offline">இணையம் இல்லை — படங்களை ஏற்ற இணையத் தொடர்பு தேவை</string>
+    <string name="media_keep_on">கைபேசியில் சேமிக்கப்படுகிறது ✓ (தட்டி நிறுத்து)</string>
+    <string name="media_keep_off">படங்களைக் கைபேசியில் சேமி</string>
+    <string name="media_saved">படம் சேமிக்கப்பட்டது</string>
+    <string name="media_need_online">இணையத் தொடர்பு தேவை</string>
+    <string name="media_source_fmt">மூலம்: %s</string>
+    <string name="media_in_chapter">இந்த அத்தியாயத்தின் கலைப் படங்கள்</string>
+
+    <!-- chapter tracker -->
+    <string name="mark_read">படித்ததாகக் குறி</string>
+    <string name="unmark_read">குறியை நீக்கு</string>
+    <string name="completed_card">✓ படித்து முடித்தேன்</string>
+    <string name="completed_state">அத்தியாயம் முடிந்தது ✓ — மாற்ற தட்டவும்</string>
+    <string name="chapter_done_toast">அத்தியாயம் முடிந்தது · மொத்தம் %1$d</string>
+    <string name="unmarked_toast">குறி நீக்கப்பட்டது</string>
+    <string name="reading_progress">வாசிப்பு முன்னேற்றம்</string>
+    <string name="chapters_progress">%1$d / %2$d அத்தியாயங்கள் முடிந்தன</string>
+    <string name="book_progress_fmt">%1$d/%2$d</string>
+    <string name="reset_all">அனைத்துக் குறிகளையும் நீக்கு</string>
+    <string name="reset_confirm">எல்லா அத்தியாயக் குறிகளையும் நீக்கவா? இதை மீட்டமைக்க முடியாது.</string>
+    <string name="first_chapter">இது முதல் அத்தியாயம்.</string>
+    <string name="last_chapter">பைபிளின் கடைசி அத்தியாயத்தை அடைந்தீர்கள்.</string>
+    <string name="menu_books_chapters">புத்தகங்கள் &amp; அத்தியாயங்கள்</string>
+    <string name="menu_library">புத்தகக்குறிகள், ஹைலைட்கள் &amp; குறிப்புகள்</string>
+    <string name="day_fmt">நாள் %1$d</string>
+    <string name="days_complete_fmt">%2$d நாட்களில் %1$d நாட்கள் முடிந்தன</string>
+</resources>

@@ -1,0 +1,11 @@
+# Build outputs
+build/
+shots/
+*.apk
+*.idsig
+
+# Signing key — NEVER publish (keep it backed up privately)
+keystore.jks
+
+# Bundled SDK toolchain (large; see README for what the build needs)
+tools/

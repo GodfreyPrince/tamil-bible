@@ -9,3 +9,4 @@ keystore.jks
 
 # Bundled SDK toolchain (large; see README for what the build needs)
 tools/
+artrepo/

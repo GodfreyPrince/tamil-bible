@@ -18,7 +18,7 @@ import android.widget.TextView;
 import java.util.List;
 
 /** கலைக் காட்சியகம் — browse curated Biblical art by scene (online images). */
-public class GalleryActivity extends Activity {
+public class GalleryActivity extends BaseActivity {
 
     private static final int MODE_SCENES = 0, MODE_SCENE_GRID = 1, MODE_ALL = 2;
     private int mode = MODE_SCENES;

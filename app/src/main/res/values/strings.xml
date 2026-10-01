@@ -88,4 +88,45 @@
     <string name="menu_library">புத்தகக்குறிகள், ஹைலைட்கள் &amp; குறிப்புகள்</string>
     <string name="day_fmt">நாள் %1$d</string>
     <string name="days_complete_fmt">%2$d நாட்களில் %1$d நாட்கள் முடிந்தன</string>
+    <!-- study layer -->
+    <string name="study">ஆய்வு</string>
+    <string name="study_words">சொல் ஆய்வு — மூல மொழி</string>
+    <string name="study_notes">விளக்க உரை</string>
+    <string name="study_questions">கேள்வி – பதில்</string>
+    <string name="study_dictionary">அகராதி</string>
+    <string name="study_intro">நூல் அறிமுகம்</string>
+    <string name="study_theology">இறையியல் விளக்கம்</string>
+    <string name="study_ane">பண்டைய உலகச் சூழல்</string>
+    <string name="study_none">ஆய்வு மூலம் இணைக்கப்படவில்லை. அமைப்புகளில் சேவையக URL-ஐ அமைக்கவும், அல்லது ஆஃப்லைன் தொகுப்பைப் பதிவிறக்கவும்.</string>
+    <string name="study_none_verse">இந்த வசனத்திற்கு ஆய்வுத் தகவல் எதுவும் இல்லை.</string>
+    <string name="study_source_pack">ஆஃப்லைன் தொகுப்பிலிருந்து</string>
+    <string name="study_source_server">சேவையகத்திலிருந்து</string>
+    <string name="study_source_none">ஆய்வு மூலம் கிடைக்கவில்லை</string>
+    <string name="study_download_btn">ஆய்வுத் தொகுப்பை பதிவிறக்கு (ஆஃப்லைன் வாசிப்புக்கு)</string>
+    <string name="study_downloading">பதிவிறங்குகிறது…</string>
+    <string name="study_downloaded">ஆய்வுத் தொகுப்பு சேமிக்கப்பட்டது ✓</string>
+    <string name="study_delete_pack">ஆஃப்லைன் தொகுப்பை நீக்கு</string>
+    <string name="study_pack_deleted">தொகுப்பு நீக்கப்பட்டது</string>
+    <string name="study_server_url">ஆய்வு சேவையக URL</string>
+    <string name="study_url_hint">உதாரணம்: http://192.168.1.10:8787</string>
+    <string name="study_url_unset">அமைக்கப்படவில்லை — தட்டி சேவையக URL-ஐ கொடுங்கள்</string>
+    <string name="study_server_set">சேவையக URL சேமிக்கப்பட்டது</string>
+    <string name="study_error">இணைப்பு தோல்வி — URL-ஐ சரிபார்க்கவும்</string>
+    <string name="study_gloss">சொற்பொருள்:</string>
+    <string name="study_renderings">IRV வழங்கல்கள்:</string>
+    <string name="loading">ஏற்றுகிறது…</string>
+
+    <!-- app language -->
+    <string name="app_language">செயலி மொழி</string>
+    <string name="lang_tamil">தமிழ்</string>
+    <string name="lang_english">English</string>
+    <string name="lang_system">கருவியின் மொழியைப் பின்பற்றுக</string>
+
+    <!-- settings study section -->
+    <string name="study_section">ஆய்வு உதவிகள்</string>
+    <string name="study_section_hint">வசனத்தைத் தட்டி → ஆய்வு: மூலமொழிச் சொல் ஆய்வு, விளக்க உரைகள், கேள்வி-பதில், அகராதி, இறையியல். சேவையகம் அல்லது பதிவிறக்கிய தொகுப்பிலிருந்து வேலை செய்யும்.</string>
+    <string name="study_key">சேவையக விசை</string>
+    <string name="study_key_hint">விசை (Key) — சேவையகத்தின் study_key.txt இல் உள்ளது</string>
+    <string name="study_key_rejected">விசை நிராகரிக்கப்பட்டது — சேவையக விசையைச் சரிபார்க்கவும்</string>
+    <string name="study_rate">கோரிக்கைகள் அதிகமாகிவிட்டன — சற்றுக்கழித்து முயற்சிக்கவும்</string>
 </resources>

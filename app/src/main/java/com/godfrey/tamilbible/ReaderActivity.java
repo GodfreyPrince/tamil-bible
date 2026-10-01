@@ -35,7 +35,7 @@ import android.widget.Toast;
 import java.util.HashMap;
 import java.util.List;
 
-public class ReaderActivity extends Activity {
+public class ReaderActivity extends BaseActivity {
 
     private int book, chapter;
     private ScrollView scroll;
@@ -497,6 +497,15 @@ public class ReaderActivity extends Activity {
             render();
             if (holder[0] != null) holder[0].dismiss();
             Ui.share(this, Ui.shareText(bd, book, chapter, v));
+        }));
+        actions.addView(actionBtn(R.drawable.ic_book, 0xFFE8A13D, getString(R.string.study), false, x -> {
+            selectedVerse = -1;
+            if (holder[0] != null) holder[0].dismiss();
+            Intent si = new Intent(this, StudyActivity.class);
+            si.putExtra("book", book);
+            si.putExtra("chapter", chapter);
+            si.putExtra("verse", v);
+            startActivity(si);
         }));
         sheet.addView(actions);
 

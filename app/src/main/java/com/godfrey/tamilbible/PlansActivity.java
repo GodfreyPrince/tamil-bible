@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 import java.util.List;
 
-public class PlansActivity extends Activity {
+public class PlansActivity extends BaseActivity {
 
     private List<PlanEngine.Plan> plans;
 

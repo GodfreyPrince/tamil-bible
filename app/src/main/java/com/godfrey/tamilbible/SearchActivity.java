@@ -18,7 +18,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SearchActivity extends Activity {
+public class SearchActivity extends BaseActivity {
 
     private final List<int[]> results = new ArrayList<>();
     private ArrayAdapter<Object> adapter;

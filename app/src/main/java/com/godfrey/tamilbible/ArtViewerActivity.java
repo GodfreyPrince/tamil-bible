@@ -19,7 +19,7 @@ import java.io.File;
 import java.util.List;
 
 /** Full-screen art viewer: Tamil title/description, save-to-device, source link, share. */
-public class ArtViewerActivity extends Activity {
+public class ArtViewerActivity extends BaseActivity {
 
     private MediaData.Item it;
     private TextView btnSave;

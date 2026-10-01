@@ -10,7 +10,7 @@ import android.widget.CheckBox;
 import android.widget.ListView;
 import android.widget.TextView;
 
-public class PlanDetailActivity extends Activity {
+public class PlanDetailActivity extends BaseActivity {
 
     private PlanEngine.Plan plan;
 

@@ -13,7 +13,7 @@ import android.widget.Toast;
 
 import java.util.List;
 
-public class LibraryActivity extends Activity {
+public class LibraryActivity extends BaseActivity {
 
     private static final String[] TABS = {"bookmarks", "highlights", "notes"};
     private int tab = 0;

@@ -22,7 +22,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** வேத வரைபடங்கள் — classic Biblical maps (online images, curators' picks). */
-public class MapsActivity extends Activity {
+public class MapsActivity extends BaseActivity {
 
     private static class MItem {
         String id, title, taTitle, taDesc, url;

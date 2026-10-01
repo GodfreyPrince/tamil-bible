@@ -54,6 +54,29 @@
                 android:text="@string/media_keep_off" android:textSize="15sp" android:layout_marginTop="4dp"/>
 
             <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/app_language" android:textSize="16sp" android:textStyle="bold"
+                android:layout_marginTop="28dp" android:textColor="?android:attr/textColorPrimary"/>
+            <RadioGroup android:id="@+id/rg_lang" android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_marginTop="4dp" android:orientation="vertical">
+                <RadioButton android:id="@+id/rb_lang_ta" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="@string/lang_tamil" android:textSize="15sp"/>
+                <RadioButton android:id="@+id/rb_lang_en" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="@string/lang_english" android:textSize="15sp"/>
+                <RadioButton android:id="@+id/rb_lang_sys" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="@string/lang_system" android:textSize="15sp"/>
+            </RadioGroup>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/study_section" android:textSize="16sp" android:textStyle="bold"
+                android:layout_marginTop="28dp" android:textColor="?android:attr/textColorPrimary"/>
+            <TextView android:id="@+id/tv_study_url" android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="14sp" android:layout_marginTop="6dp" android:padding="12dp"
+                android:background="@drawable/bg_list_item" android:textColor="?android:attr/textColorPrimary"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="@string/study_section_hint" android:textSize="13sp" android:layout_marginTop="6dp"
+                android:textColor="?android:attr/textColorSecondary"/>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
                 android:text="@string/about_title" android:textSize="16sp" android:textStyle="bold"
                 android:layout_marginTop="32dp" android:textColor="?android:attr/textColorPrimary"/>
             <TextView android:layout_width="match_parent" android:layout_height="wrap_content"

@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class VotdActivity extends Activity {
+public class VotdActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

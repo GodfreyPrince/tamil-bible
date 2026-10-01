@@ -7,7 +7,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 /** Full-screen map viewer with zoom-friendly large image. */
-public class MapViewerActivity extends Activity {
+public class MapViewerActivity extends BaseActivity {
 
     private String title;
 

@@ -18,7 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
-public class BookPickerActivity extends Activity {
+public class BookPickerActivity extends BaseActivity {
 
     private boolean showNT = false;
     private int pickingBook = -1;

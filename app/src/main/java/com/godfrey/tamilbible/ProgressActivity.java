@@ -15,7 +15,7 @@ import android.widget.Toast;
 import java.util.Set;
 
 /** Reading progress: overall ring, OT/NT totals, and a ring for every book. */
-public class ProgressActivity extends Activity {
+public class ProgressActivity extends BaseActivity {
 
     private static final int TOTAL_CHAPTERS = 1189;
 

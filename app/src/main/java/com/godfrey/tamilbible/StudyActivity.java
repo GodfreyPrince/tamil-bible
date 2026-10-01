@@ -84,6 +84,8 @@ public class StudyActivity extends BaseActivity {
         body.setOrientation(LinearLayout.VERTICAL);
         body.setPadding(dp(20), dp(4), dp(20), dp(30));
         scroll.addView(body);
+        scroll.setBackground(new android.graphics.drawable.GradientDrawable());
+        scroll.setBackgroundColor(Ui.attr(this, android.R.attr.windowBackground));
         root.addView(scroll, new LinearLayout.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT, 0, 1f));
         setContentView(root);
@@ -103,7 +105,9 @@ public class StudyActivity extends BaseActivity {
                 try {
                     payload = loadFromPack();
                     from = getString(R.string.study_source_pack);
-                } catch (Exception ignored) { }
+                } catch (Exception e) {
+                    android.util.Log.e("Study", "pack load failed", e);
+                }
             }
             if (payload == null && !Study.serverUrl().isEmpty()) {
                 try {
@@ -111,6 +115,7 @@ public class StudyActivity extends BaseActivity {
                             + "/api/verse?ref=" + Study.ref(book, chapter, verse));
                     from = getString(R.string.study_source_server);
                 } catch (Exception e) {
+                    android.util.Log.e("Study", "verse fetch failed", e);
                     fetchError = String.valueOf(e);
                 }
             }

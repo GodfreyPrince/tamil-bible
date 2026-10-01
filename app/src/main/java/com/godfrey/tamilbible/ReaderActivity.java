@@ -507,7 +507,11 @@ public class ReaderActivity extends BaseActivity {
             si.putExtra("verse", v);
             startActivity(si);
         }));
-        sheet.addView(actions);
+        // 5 actions exceed the narrowest screens: let the row scroll horizontally
+        android.widget.HorizontalScrollView hscroll = new android.widget.HorizontalScrollView(this);
+        hscroll.setHorizontalScrollBarEnabled(false);
+        hscroll.addView(actions);
+        sheet.addView(hscroll);
 
         final AlertDialog dlg = new AlertDialog.Builder(this).create();
         dlg.setView(sheet);

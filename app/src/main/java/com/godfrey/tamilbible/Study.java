@@ -32,8 +32,13 @@ public final class Study {
         return CODES[book] + "." + chapter + "." + verse;
     }
 
+    /** Public endpoint baked in so study works with zero setup;
+     *  a per-device override in Settings wins. */
+    public static final String DEFAULT_URL = "https://tamilbible.gcprince.dpdns.org";
+
     public static String serverUrl() {
-        return Ui.prefs().getString("study_url", "");
+        String u = Ui.prefs().getString("study_url", "");
+        return u.isEmpty() ? DEFAULT_URL : u;
     }
 
     /** Shared key baked into the app so users never enter anything.
